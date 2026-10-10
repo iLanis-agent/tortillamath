@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tortilla math</title>
+<style>
+  :root { --ink:#10211f; --accent:#1f6f6b; --paper:#f6faf9; --line:#d5e5e2; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:Georgia,'Times New Roman',serif; background:var(--paper); color:var(--ink); }
+  .wrap { max-width:760px; margin:0 auto; padding:3rem 1.25rem; }
+  h1 { font-size:2.4rem; margin:0 0 .6rem; }
+  p.lede { font-size:1.1rem; line-height:1.55; color:#2c544f; }
+  .cta { display:inline-block; margin:1.2rem 0 2rem; padding:.7rem 1.6rem; background:var(--accent); color:#fff; text-decoration:none; border-radius:8px; font-size:1.05rem; }
+  .cta:hover { background:#185653; }
+  h2 { font-size:1.2rem; margin:2rem 0 .4rem; }
+  ul { line-height:1.6; color:#294c48; padding-left:1.2rem; }
+  .norms { border:1px solid var(--line); border-radius:8px; padding:.9rem 1.1rem; background:#fff; font-size:.92rem; color:#3a605b; line-height:1.5; }
+  footer { margin-top:3rem; font-size:.85rem; color:#6f948f; }
+  a { color:var(--accent); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Tortilla math</h1>
+  <p class="lede">The first tortilla comes out a coaster and the last one a hubcap, because nobody weighed the balls. Tortilla math scales ball weight by area so every round hits the same diameter, counts the batch from your flour before you mix, and plans the griddle rounds so the stack stays warm. Exact arithmetic, every borrowed number labeled.</p>
+  <a class="cta" href="app.html">Open the calculators</a>
+
+  <h2>The three tools</h2>
+  <ul>
+    <li><b>Ball weight</b> - target diameter becomes grams per ball, scaled by area from a labeled reference.</li>
+    <li><b>Batch from flour</b> - flour and hydration become dough weight, ball count, and the leftover.</li>
+    <li><b>Griddle plan</b> - count, griddle capacity and seconds per side become rounds and total time.</li>
+  </ul>
+
+  <h2>Labeled norms</h2>
+  <div class="norms">
+    30 g rolls out to a classic 15 cm round on a typical press (your dough and press may differ). Hydration defaults to 58%. Griddle timing is a plan, not a doneness verdict - the puff and the spots tell you when. These are kitchen norms from common recipes, not law - your masa wins.
+  </div>
+
+  <footer>Built by the app factory. <a href="https://github.com/iLanis-agent/tortillamath">Source on GitHub</a></footer>
+</div>
+</body>
+</html>
