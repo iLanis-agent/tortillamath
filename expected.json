@@ -1,0 +1,457 @@
+[
+ {
+  "tool": "ball",
+  "args": [
+   15,
+   30
+  ],
+  "expect": {
+   "weight": 30.0,
+   "band": "classic table size"
+  }
+ },
+ {
+  "tool": "ball",
+  "args": [
+   25,
+   30
+  ],
+  "expect": {
+   "weight": 83.3,
+   "band": "burrito territory"
+  }
+ },
+ {
+  "tool": "ball",
+  "args": [
+   10,
+   30
+  ],
+  "expect": {
+   "weight": 13.3,
+   "band": "street-taco size"
+  }
+ },
+ {
+  "tool": "ball",
+  "args": [
+   12,
+   30
+  ],
+  "expect": {
+   "weight": 19.2,
+   "band": "classic table size"
+  }
+ },
+ {
+  "tool": "ball",
+  "args": [
+   11.9,
+   30
+  ],
+  "expect": {
+   "weight": 18.9,
+   "band": "street-taco size"
+  }
+ },
+ {
+  "tool": "ball",
+  "args": [
+   18,
+   30
+  ],
+  "expect": {
+   "weight": 43.2,
+   "band": "classic table size"
+  }
+ },
+ {
+  "tool": "ball",
+  "args": [
+   18.1,
+   30
+  ],
+  "expect": {
+   "weight": 43.7,
+   "band": "burrito territory"
+  }
+ },
+ {
+  "tool": "ball",
+  "args": [
+   20,
+   25
+  ],
+  "expect": {
+   "weight": 44.4,
+   "band": "burrito territory"
+  }
+ },
+ {
+  "tool": "ball",
+  "args": [
+   7.5,
+   30
+  ],
+  "expect": {
+   "weight": 7.5,
+   "band": "street-taco size"
+  }
+ },
+ {
+  "tool": "ball",
+  "args": [
+   30,
+   40
+  ],
+  "expect": {
+   "weight": 160.0,
+   "band": "burrito territory"
+  }
+ },
+ {
+  "tool": "ball",
+  "args": [
+   0,
+   30
+  ],
+  "expect": {
+   "error": "diameter must be positive"
+  }
+ },
+ {
+  "tool": "ball",
+  "args": [
+   -15,
+   30
+  ],
+  "expect": {
+   "error": "diameter must be positive"
+  }
+ },
+ {
+  "tool": "ball",
+  "args": [
+   15,
+   0
+  ],
+  "expect": {
+   "error": "reference weight must be positive"
+  }
+ },
+ {
+  "tool": "ball",
+  "args": [
+   15,
+   -5
+  ],
+  "expect": {
+   "error": "reference weight must be positive"
+  }
+ },
+ {
+  "tool": "batch",
+  "args": [
+   500,
+   58,
+   30
+  ],
+  "expect": {
+   "dough": 790.0,
+   "balls": 26,
+   "leftover": 10.0
+  }
+ },
+ {
+  "tool": "batch",
+  "args": [
+   250,
+   60,
+   30
+  ],
+  "expect": {
+   "dough": 400.0,
+   "balls": 13,
+   "leftover": 10.0
+  }
+ },
+ {
+  "tool": "batch",
+  "args": [
+   1000,
+   55,
+   83.3
+  ],
+  "expect": {
+   "dough": 1550.0,
+   "balls": 18,
+   "leftover": 50.6
+  }
+ },
+ {
+  "tool": "batch",
+  "args": [
+   300,
+   50,
+   20
+  ],
+  "expect": {
+   "dough": 450.0,
+   "balls": 22,
+   "leftover": 10.0
+  }
+ },
+ {
+  "tool": "batch",
+  "args": [
+   120,
+   58,
+   30
+  ],
+  "expect": {
+   "dough": 189.6,
+   "balls": 6,
+   "leftover": 9.6
+  }
+ },
+ {
+  "tool": "batch",
+  "args": [
+   96,
+   50,
+   12
+  ],
+  "expect": {
+   "dough": 144.0,
+   "balls": 12,
+   "leftover": 0.0
+  }
+ },
+ {
+  "tool": "batch",
+  "args": [
+   750.5,
+   57.5,
+   33.3
+  ],
+  "expect": {
+   "dough": 1182.0,
+   "balls": 35,
+   "leftover": 16.5
+  }
+ },
+ {
+  "tool": "batch",
+  "args": [
+   200,
+   70,
+   40
+  ],
+  "expect": {
+   "dough": 340.0,
+   "balls": 8,
+   "leftover": 20.0
+  }
+ },
+ {
+  "tool": "batch",
+  "args": [
+   0,
+   58,
+   30
+  ],
+  "expect": {
+   "error": "flour must be positive"
+  }
+ },
+ {
+  "tool": "batch",
+  "args": [
+   -500,
+   58,
+   30
+  ],
+  "expect": {
+   "error": "flour must be positive"
+  }
+ },
+ {
+  "tool": "batch",
+  "args": [
+   500,
+   0,
+   30
+  ],
+  "expect": {
+   "error": "hydration must be positive"
+  }
+ },
+ {
+  "tool": "batch",
+  "args": [
+   500,
+   58,
+   0
+  ],
+  "expect": {
+   "error": "ball weight must be positive"
+  }
+ },
+ {
+  "tool": "batch",
+  "args": [
+   500,
+   -2,
+   30
+  ],
+  "expect": {
+   "error": "hydration must be positive"
+  }
+ },
+ {
+  "tool": "griddle",
+  "args": [
+   26,
+   4,
+   45
+  ],
+  "expect": {
+   "rounds": 7,
+   "totalMin": 10.5,
+   "lastRound": 2
+  }
+ },
+ {
+  "tool": "griddle",
+  "args": [
+   24,
+   4,
+   45
+  ],
+  "expect": {
+   "rounds": 6,
+   "totalMin": 9.0,
+   "lastRound": 4
+  }
+ },
+ {
+  "tool": "griddle",
+  "args": [
+   1,
+   4,
+   45
+  ],
+  "expect": {
+   "rounds": 1,
+   "totalMin": 1.5,
+   "lastRound": 1
+  }
+ },
+ {
+  "tool": "griddle",
+  "args": [
+   4,
+   4,
+   60
+  ],
+  "expect": {
+   "rounds": 1,
+   "totalMin": 2.0,
+   "lastRound": 4
+  }
+ },
+ {
+  "tool": "griddle",
+  "args": [
+   50,
+   6,
+   40
+  ],
+  "expect": {
+   "rounds": 9,
+   "totalMin": 12.0,
+   "lastRound": 2
+  }
+ },
+ {
+  "tool": "griddle",
+  "args": [
+   10,
+   3,
+   50
+  ],
+  "expect": {
+   "rounds": 4,
+   "totalMin": 6.7,
+   "lastRound": 1
+  }
+ },
+ {
+  "tool": "griddle",
+  "args": [
+   30,
+   5,
+   42.5
+  ],
+  "expect": {
+   "rounds": 6,
+   "totalMin": 8.5,
+   "lastRound": 5
+  }
+ },
+ {
+  "tool": "griddle",
+  "args": [
+   0,
+   4,
+   45
+  ],
+  "expect": {
+   "error": "count must be positive"
+  }
+ },
+ {
+  "tool": "griddle",
+  "args": [
+   -10,
+   4,
+   45
+  ],
+  "expect": {
+   "error": "count must be positive"
+  }
+ },
+ {
+  "tool": "griddle",
+  "args": [
+   26,
+   0,
+   45
+  ],
+  "expect": {
+   "error": "griddle capacity must be positive"
+  }
+ },
+ {
+  "tool": "griddle",
+  "args": [
+   26,
+   4,
+   0
+  ],
+  "expect": {
+   "error": "seconds must be positive"
+  }
+ },
+ {
+  "tool": "griddle",
+  "args": [
+   26,
+   -1,
+   45
+  ],
+  "expect": {
+   "error": "griddle capacity must be positive"
+  }
+ }
+]
